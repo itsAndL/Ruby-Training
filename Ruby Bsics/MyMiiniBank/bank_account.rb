@@ -1,4 +1,7 @@
 class BankAccount
+    # attr_reader :name
+    # attr_writer :name
+    
     attr_reader :name
 
     def initialize(name)
