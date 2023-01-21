@@ -1,0 +1,9 @@
+<h1>Welcome to our Wiki!</h1>
+
+<p>You can visit these pages</p>
+
+<% @array_pages.each do |page| %>
+  <a href="/<%= page.chomp('.txt') %>"><%= page.chomp('.txt') %></a>
+<% end %>
+
+<p>Or, you can <a href="/new">create a new page</a></p>
